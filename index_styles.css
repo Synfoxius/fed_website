@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+FED Project CA1 1935938
+        Name: Boris Cougar Ong
+        Date: 6/5/19
+
+        Filename: index_styles.css
+*/
+
+/* Image Styles */
+
+.pics > img {
+    height: 250px;
+    object-fit: contain;
+}
+
+.myimage > img {
+    object-fit: contain;
+    height: 200px;
+}
+
+.pics > p {
+    font-size: 15px;
+    font-style: italic;
+}
