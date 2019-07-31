@@ -7,11 +7,11 @@ FED Project CA1 1935938
 */
 
 /* Image Styles */
-#pcbuild {
+.interesting > img {
     height: 250px;
 }
 
-#overwatch {
+#overwatch > img {
     height: 200px
 }
 
@@ -19,7 +19,7 @@ FED Project CA1 1935938
     font-size: 12px
 }
 
-#gta{
+#gta > img{
     height: 160px;
 }
 

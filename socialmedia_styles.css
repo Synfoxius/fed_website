@@ -27,14 +27,16 @@ fieldset{
     width: 40%
 }
 
+.submit {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
 #submit {
     border: none;
     border-radius: 15px;
     font-size: 20px;
     background-color: #89cff0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
 }
 
 #submit:hover {

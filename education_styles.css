@@ -7,15 +7,12 @@ FED Project CA1 1935938
 */
 
 /* Image Styles */
-#phss {
-    height: 175px;
+.schools > img {
+    height: 200px;
+    object-fit: contain;
 }
 
 .schools > p {
     font-size: 15px;
     font-style: italic;
-}
-
-#agps {
-    height: 175px;
 }
