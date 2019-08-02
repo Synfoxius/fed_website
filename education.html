@@ -1,72 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <!--
+FED Project CA2 1935938
+Name: Boris Cougar Ong
+Date: 23/7/19
 
-<head>
-    <!--
-        FED Project CA1 1935938
-        Name: Boris Cougar Ong
-        Date: 2/5/19
+Filename: education.html
+-->
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        Filename: education.html
-    -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
-    <title>My Education</title>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Pictures/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Pictures/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link href="main_styles.css" rel="stylesheet" />
-    <link href="education_styles.css" rel="stylesheet" />
-</head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="main_styles.css" rel="stylesheet" />
+        <link href="education_styles.css" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Pictures/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Pictures/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <script src="https://kit.fontawesome.com/e621916260.js"></script>
+        <title>Boris | Education</title>
+    </head>
 
-<body>
-    <header>
-        <div class=title_centre>
-            <a href="index.html">Boris</a>
-        </div>
+    <body>
+        <nav class="navbar navbar-light" style="background-color: #F1F1F1;">
+            <a class="navbar-brand" href="#">Education</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="flex-container">
-            <a href="index.html">About Me</a>
-            <a href="education.html">My Education</a>
-            <a href="interests.html">Interests</a>
-            <a href="socialmedia.html">Social Media Links</a>
-        </div>
-
-    </header>
-    <div class="row">
-        <div class="side">
-            <h3>Primary School: Anchor Green Primary School</h3>
-            <div class="schools">
-                <img src="Pictures/agps.jpg" alt="">
-                <p>Picture by Ah Teo from Google Maps</p>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="socialmedia.html">Form</a>
+                    </li>
+                </ul>
             </div>
-            <h3>Secondary School: Pei Hwa Secondary School</h3>
-            <div class="schools">
-                <img src="Pictures/phss.jpg" alt="">
-                <p>Picture by Sengkang from Wikipedia</p>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid mb-0" id="title-centre">
+            <div class="container">
+                <h1 class="display-4">Learning.</h1>
+                <p class="lead">The Act of Being Educated.</p>
             </div>
         </div>
-        <div class="main">
-            <h1>My Education</h1>
-            <p>Like many children in Singapore, I too was enrolled into a Primary School and continued from there to Secondary School and now I'm in Tertiary Education!</p>
-            <h2>Primary Education</h2>
-            <p>I spent 6 entire years in this Primary School in my neighbourhood of Sengkang. The school started off modest, me being the second batch of Primary One students. I enjoyed my life there as the teachers were patient with us and they taught with passion. Unfortunately, I did not work hard enough for PSLE and whilst many of my friends went to better known schools with T Scores upwards of 240 points, I went to a neighbourhood Secondary School as I did not do as well, scoring a measly 222 points.</p>
-            <h2>Secondary Education</h2>
-            <p>I went to a Secondary School with a good reputation called Pei Hwa Secondary School, located in Fernvale. At first, my impressions of the school was that it was extremely strict with little to no room for misconduct, but I was so wrong. The teachers there were some of the nicest and most dedicated teachers I have seen, some of them even sacrificing their free time to help us outside of office hours and they even reply to our messages as soon as possible. The friends I have made there are extremely friendly. They are supportive and are willing to give a helping hand towards the O Level period. I have learnt my lesson from Primary School and I worked harder for O Levels, allowing me to choose the course that I want in Tertiary Education.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3" id="sidebar">
+                    <h3>Primary School: Anchor Green Primary School</h3>
+                    <img src="Pictures/agps.jpg" alt="" class="img-fluid" id="agps">
+                    <p>Picture by Ah Teo from Google Maps</p>
+                    <h3>Secondary School: Pei Hwa Secondary School</h3>
+                    <img src="Pictures/phss.jpg" alt="" class="img-fluid" id="phss">
+                    <p>Picture by Sengkang from Wikipedia</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7" id="mainbar">
+                    <h1>My Education</h1>
+                    <p>Like many children in Singapore, I too was enrolled into a Primary School and continued from there to Secondary School and now I'm in Tertiary Education!</p>
+                    <h2>Primary Education</h2>
+                    <p>I spent 6 entire years in this Primary School in my neighbourhood of Sengkang. The school started off modest, me being the second batch of Primary One students. I enjoyed my life there as the teachers were patient with us and they taught with passion. Unfortunately, I did not work hard enough for PSLE and whilst many of my friends went to better known schools with T Scores upwards of 240 points, I went to a neighbourhood Secondary School as I did not do as well, scoring a measly 222 points.</p>
+                    <h2>Secondary Education</h2>
+                    <p>I went to a Secondary School with a good reputation called Pei Hwa Secondary School, located in Fernvale. At first, my impressions of the school was that it was extremely strict with little to no room for misconduct, but I was so wrong. The teachers there were some of the nicest and most dedicated teachers I have seen, some of them even sacrificing their free time to help us outside of office hours and they even reply to our messages as soon as possible. The friends I have made there are extremely friendly. They are supportive and are willing to give a helping hand towards the O Level period. I have learnt my lesson from Primary School and I worked harder for O Levels, allowing me to choose the course that I want in Tertiary Education.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <footer>
-    <a href="https://twitter.com/not_boris_" target="_blank">
-        <img src="Pictures/twitter.png" alt="twitter" />
-    </a>
-    <a href="https://discord.gg/7ABEWFQ" target="_blank">
-        <img src="Pictures/Discord.png" alt="discord" />
-    </a>
-    <a href="https://www.instagram.com/boris.ong/" target="_blank">
-        <img src="Pictures/instagram.png" alt="instagram">
-    </a>
-    &copy; Boris 2019
-</footer>
+        <footer>
+            <a class="fab fa-twitter fa-3x" href="https://twitter.com/not_boris_" target="_blank" role="button" id="twitter"></a>
+            <a class="fab fa-discord fa-3x" href="https://discord.gg/7ABEWFQ" target="_blank" role="button" id="discord"></a>
+            <a class="fab fa-instagram fa-3x" href="https://www.instagram.com/boris.ong/" target="_blank" role="button" id="instagram"></a>
+            &copy; Boris 2019
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+    </body>
+
+</html>

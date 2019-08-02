@@ -1,28 +1,4 @@
-/*
-FED Project CA1 1935938
-        Name: Boris Cougar Ong
-        Date: 6/5/19
-
-        Filename: main_styles.css
-*/
-
-/* HTML Styles */
-
-html {
-    color: black;
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: auto;
-}
-@media screen and (max-width: 700px) {
-    .row, .flex-container {
-        flex-direction: column;
-        width: 100%;
-        }
-    }
-/* Header Styles */
-
-.title_centre {
+#title-centre {
     padding: 60px;
     text-align: center;
     background-image: url(Pictures/background.jpg);
@@ -30,70 +6,22 @@ html {
     width: auto;
 }
 
-.title_centre a {
-    padding: 40px 100px 40px;
-    color: #FFFFFF;
+.display-4 {
+    color: #FFF;
     text-shadow: 2px 2px rgb(100, 98, 98);
-    font-style: italic;
-    font-weight: 900;
-    font-size: 72px;
     text-decoration: none;
 }
 
-body {
-    margin: 0;
-    background: #FFFFFF
-}
-
-/*Flex Container Styles*/
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    background-color: #7c7878;
-    width: auto;
-}
-
-.flex-container a {
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.flex-container a:hover {
-    background-color: #DDDDDD;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-/* Text Styles */
-
-.row {
-    display: flex;
-    position: relative;
-    min-height: 100vh;
-}
-
-.side {
-    flex: 20%;
+#sidebar {
+    padding-top: 2.5rem;
     background-color: #f1f1f1;
-    padding: 20px;
     padding-bottom: 2.5rem;
 }
 
-.main {
-    flex: 80%;
-    background-color: #FFFFFF;
-    padding: 20px;
-    padding-bottom: 2.5rem;
-    margin-right: 15%;
+#mainbar {
+    padding-top: 2.5rem;
 }
 
-/* Footer Styles */
 footer {
     bottom: 0;
     width: auto;
@@ -105,4 +33,33 @@ footer {
 a > img {
     height: 40px;
     text-decoration: none;
+}
+
+#twitter, #discord, #instagram {
+    text-decoration: none;
+}
+
+.fa-twitter:hover{
+    color: #657786;
+    transition: 0.2s;
+}
+
+.fa-instagram{
+    color: #000;
+    text-decoration: none;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+    transition: 0.2s;
+}
+
+.fa-discord{
+    color: #23272A;
+    text-decoration: none;
+}
+
+.fa-discord:hover{
+    color: #7289DA;
+    transition: 0.2s;
 }
