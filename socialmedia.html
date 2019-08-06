@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!--
+FED Project CA2 1935938
+Name: Boris Cougar Ong
+Date: 23/7/19
+
+Filename: education.html
+-->
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="main_styles.css" rel="stylesheet" />
+        <link href="socialmedia_styles.css" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Pictures/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Pictures/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <script src="formValidation.js"></script>
+        <script src="https://kit.fontawesome.com/e621916260.js"></script>
+        <title>Boris | Form</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light" style="background-color: #F1F1F1;">
+            <a class="navbar-brand" href="#">Form</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games I Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid mb-0" id="title-centre">
+            <div class="container">
+                <h1 class="display-4">Forms.</h1>
+                <p class="lead">I Promise It Won't Be Long.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3" id="sidebar">
+                    <h3>Fill up this form so that you can play games with me!</h3>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7" id="mainbar">
+                    <form class="needs-validation" novalidate action="thankyou.html">
+                        <div class="form-row">
+                            <div class="col-10">
+                                <label for="validationCustom01">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                                       required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please input a valid name.
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <label for="validationCustom01">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="Last name"
+                                       required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please input a valid name.
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <label for="validationCustomUsername">Usernames</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">Discord</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                           placeholder="Example#1234" aria-describedby="inputGroupPrepend" pattern="^[^#]{2,32}#\d{4}$">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid Discord Tag.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="input-group" id="gaps">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">Battle.Net</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                           placeholder="Example#1234" aria-describedby="inputGroupPrepend" pattern="^[^#]{2,32}#\d{4}$">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid Battle.Net Tag.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="input-group" id="gaps">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">Steam</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                           placeholder="Example" aria-describedby="inputGroupPrepend">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid Steam Tag.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <div class="input-group" id="gaps">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend">Rockstar Games Social Club</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                           placeholder="Example" aria-describedby="inputGroupPrepend">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid Social Club Tag.
+                                    </div>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit" id="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a class="fab fa-twitter fa-3x" href="https://twitter.com/not_boris_" target="_blank" role="button"
+               id="twitter"></a>
+            <a class="fab fa-discord fa-3x" href="https://discord.gg/7ABEWFQ" target="_blank" role="button"
+               id="discord"></a>
+            <a class="fab fa-instagram fa-3x" href="https://www.instagram.com/boris.ong/" target="_blank" role="button"
+               id="instagram"></a>
+            &copy; Boris 2019
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+    </body>
+
+</html>
